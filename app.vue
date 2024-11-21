@@ -1,18 +1,11 @@
 
 <template>
   <main class="container">
+    <NuxtPage />
     <h1>Welcome to Tauri + Vue 3</h1>
 
     <div class="row">
-      <a href="https://vitejs.dev" target="_blank">
-        Vite
-      </a>
-      <a href="https://tauri.app" target="_blank">
-        Tauri
-      </a>
-      <a href="https://vuejs.org/" target="_blank">
-        Vue2
-      </a>
+      <NuxtLink to="/home">Home</NuxtLink>
     </div>
     <p>Click on the Tauri, Vite, and Vue logos to learn more.</p>
 
